@@ -14,7 +14,7 @@ public class Ejecutor {
         
         // Creación de un objeto de tipo EstudianteDistancia
         
-        String nombre = "René";
+        String nombre = "Rene";
         String apellido = "Elizalde";
         String identificacion = "110011";
         int edad = 36;
@@ -23,6 +23,11 @@ public class Ejecutor {
                 apellido, identificacion, edad);
         
         System.out.println(estDistancia);
+        
+         EstudiantePresencial estPresencial = new EstudiantePresencial("Ana", 
+                "Burneo", "111015248", 20);
+        
+        System.out.println(estPresencial);
                 
         
     }
